@@ -1,0 +1,384 @@
+body {
+    background: rgb(250, 249, 249);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif Helvetica Neue;
+    margin: 0;
+    padding: 0;
+
+/* HEADER */
+
+}
+header {
+    background-color: rgb(154, 153, 155);
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 35px;
+    color: rgb(190, 12, 12);
+    text-align: center;
+    
+}
+
+header a {
+    color: rgb(16, 15, 15); 
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+
+header .mobile {
+    display: none;
+}
+
+header .logo a {
+    background-image: url("images/logo.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 300px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -40px;
+    width: 290px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 300px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* RECIPES */
+
+/* Container for all recipe cards */
+.recipe-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    margin: 20px;
+}
+
+/* Styling each recipe card */
+.recipe-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px; /* Fixed height */
+}
+
+/* Image styling */
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Title link styling */
+.recipe-card a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Paragraph description styling */
+.recipe-card p {
+    color: rgb(85, 82, 82);
+    font-size: 0.95rem;
+    flex-grow: 1; /* Fills the remaining space */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Handles long text gracefully */
+    white-space: normal; /* Allows text wrapping */
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+/* RECIPES */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.recipe-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(21, 21, 21, 0.1);
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-card a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.recipe-card p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+/* RECIPE FOR CHOCOLATE CHIP COOKIES */
+
+.recipe-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    font-size: 1.1rem;
+    color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* RECIPE FOR COCONUT AND STRAWBERRY CAKE */
+
+.recipe-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    font-size: 1.1rem;
+    color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* RECIPE FOR FRESH SCONES */
+
+.recipe-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    font-size: 1.1rem;
+    color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* RECIPE FOR FUDGY BROWNIES */
+
+.recipe-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    font-size: 1.1rem;
+    color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* RECIPE FOR SUGAR COOKIES */
+
+.recipe-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    font-size: 1.1rem;
+    color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* LOCATIONS */
+
+.locations {
+    background: white;
+    color: grey;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: flex;
+    position: relative;
+   
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 1000px) {
+    header {
+        height: 250px;
+        background-position: 20 -550px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header.desktop {
+        display: none;
+    }
+
+}
+   
+@media screen and (max-width: 500px) {
+    header {
+        height: 200px;
+        background-position: 0 -0px;
+    }
+}
+
+
+/* FEATURES */
+
+.features {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.features figure {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase ;
+    width: 200px;
+
+}
+
+.features figure img {
+    border-radius: 50%;
+    border: 1px solid white ;
+    box-shadow: gray;
+    width: 200px;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: rgb(223, 223, 224);
+    color: rgb(85, 84, 84);
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 20px;             
+}
+
